@@ -1,4 +1,5 @@
 import 'package:calculator/products/plants.dart';
+import 'package:calculator/widgets/customPlantCard.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
@@ -30,7 +31,7 @@ class Home extends StatelessWidget {
           Container(
             color: Color.fromRGBO(1,29,40, 1),
             padding: const EdgeInsets.all(10),
-            child: Plants(),
+            child: Customplantcard(name: "Alovera", price: 200, imgPath: 'assets/imgs/alovera.avif', onTap: (){}),
           ),
         ],
       )
